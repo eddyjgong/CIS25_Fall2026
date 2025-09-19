@@ -1,4 +1,4 @@
-I created a menu from the void function that I called from my main function. 
+I created a menu in the void function that I called from my main function. 
 
 The reason why I put the void function first is because the compiler reads starting from the top, if I had my main function first and called the void function without defining or initializing it, there would be an error.
 
