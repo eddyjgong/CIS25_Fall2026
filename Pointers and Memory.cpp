@@ -46,9 +46,9 @@ int main()
             cout << "You have decided to exit the program." << endl;
             break;
         }
-        if (id < 0 || id > 99) {
+        if (id < 0 || id > 100) {
             cout << endl;
-            cout << "Please enter a number between 0 and 99." << endl;
+            cout << "Please enter a number between 0 and 100." << endl;
             cout << endl;
             continue;
         }
@@ -77,3 +77,4 @@ int main()
 //   4. Use the Error List window to view errors
 //   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+
